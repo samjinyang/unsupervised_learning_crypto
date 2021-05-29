@@ -8,7 +8,7 @@ This **Jupyter notebook** will used **unsupervised learning** to scale down a Da
 
 ## Technologies
 
-**Python 3.7.9** was used to code this **Jupyter notebook** application.  The primary Python libararies used to make this analysis possible are: **Pandas and Sci-Kit Learn**.  The following modules were imported from **Sci-Kit Learn**:  the **K-Means algorithm**, **Standard Scaler**, and **Principal Component Analysis (PCA)**.  The resulting DataFrames will be plotted using **hvplot** from the **Pandas** library.
+**Python 3.7.9** was used to code this **Jupyter notebook** application.  The primary Python libararies used to make this analysis possible are: **Pandas** and **Sci-Kit Learn**.  The following modules were imported from **Sci-Kit Learn**:  the **K-Means algorithm**, **Standard Scaler**, and **Principal Component Analysis (PCA)**.  The resulting DataFrames will be plotted using **hvplot** from the **Pandas** library.
 
 ---
 
@@ -40,8 +40,7 @@ The notebook will start off by importing all the required libraries to run to th
 
 ---
 
-We will be able to obtain elbow data by using the **K-Means algorithm** to create a DataFrame and use **hvplot** to create a visualization.  This will ![use4](https://user-images.githubusercontent.com/80929342/120079268-ef118780-c067-11eb-91f1-5a2352f3fd34.JPG)
-help us determine what the best value for **'k'** would be for our final scatter plot visualizations:
+We will be able to obtain elbow data by using the **K-Means algorithm** to create a DataFrame and use **hvplot** to create a visualization.  This will help us determine what the best value for **'k'** would be for our final scatter plot visualizations:
 
 ![use3](https://user-images.githubusercontent.com/80929342/120079204-b671ae00-c067-11eb-87a9-2330603ae952.JPG)
 
